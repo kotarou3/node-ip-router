@@ -1,0 +1,20 @@
+{
+  "name": "ip-router",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "小太 <nospam@kota.moe>",
+  "homepage": "https://github.com/kotarou3/node-ip-router",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/kotarou3/node-ip-router.git"
+  },
+  "dependencies": {
+    "ipaddr.js": "~0.1.8"
+  },
+  "devDependencies": {
+    "mocha": "~2.1.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test.js"
+  }
+}
